@@ -104,6 +104,7 @@ body {
     /* margin-top: 100px; */
     bottom: 50px;
     overflow-x: hidden;
+    margin-left: 25px;
   }
 }
 
@@ -182,6 +183,14 @@ body {
   .funElement3,
   .funElement4 {
     height: 180px; /* Slightly shorter on mobile */
+  }
+
+  .funElement1 {
+    object-fit: contain;
+  }
+
+  .funElement4 {
+    object-fit: contain;
   }
 }
 
@@ -333,7 +342,3 @@ body {
 .contact img {
   width: 30px;
 }
-
-
-
-
