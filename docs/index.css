@@ -1,8 +1,5 @@
 /* General Styles */
 
-html {
-  scroll-behavior: smooth;
-}
 body {
   background: linear-gradient(to bottom, #500000 8%, #000 20%);
   color: #ffffff;
