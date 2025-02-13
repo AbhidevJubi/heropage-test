@@ -122,7 +122,7 @@ body {
   width: 100%; /* Fill grid/flex space */
   max-width: 300px; /* Limit video width */
   height: 250px; /* Uniform height */
-  object-fit: cover; /* Prevent video distortion */
+  object-fit: contain; /* Prevent video distortion */
   border-radius: 10px; /* Soften edges */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Subtle shadow */
   transition: transform 0.3s ease; /* Smooth hover effect */
