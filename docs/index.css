@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .background-image1 {
@@ -122,7 +123,7 @@ body {
   width: 100%; /* Fill grid/flex space */
   max-width: 300px; /* Limit video width */
   height: 250px; /* Uniform height */
-  object-fit: contain; /* Prevent video distortion */
+  object-fit: cover; /* Prevent video distortion */
   border-radius: 10px; /* Soften edges */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Subtle shadow */
   transition: transform 0.3s ease; /* Smooth hover effect */
@@ -132,7 +133,7 @@ body {
   width: 100%; /* Fill grid/flex space */
   max-width: 400px; /* Limit video width */
   height: 250px; /* Uniform height */
-  object-fit: contain; /* Prevent video distortion */
+  object-fit: cover; /* Prevent video distortion */
   border-radius: 10px; /* Soften edges */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Subtle shadow */
   transition: transform 0.3s ease; /* Smooth hover effect */
@@ -294,9 +295,13 @@ body {
 
 /* Footer */
 .footer {
+  background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 80px;
   padding: 20px 0;
-  background-color: #1a1a1a;
+  /* background-color: #000000; */
   font-family: monospace;
 }
 
